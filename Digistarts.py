@@ -13,7 +13,7 @@ while True:
             n1 = int(input('Entrada 1: '),2)
             n2 = int(input('Entrada 2: '),2)
         except ValueError:
-            print('**ERRO ENTRE COM NÙMEROS EM FORMATO DE BINÀRIO**')
+            print('**Entre com números em formato binário**')
             os._exit(0)
         if operacao == 1:
             total = n1 + n2
